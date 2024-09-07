@@ -1,0 +1,41 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#printSans {
+    background-color: #505050;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#printSans:hover {
+    background-color: #000000;
+}
